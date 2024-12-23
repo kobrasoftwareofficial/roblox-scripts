@@ -34,10 +34,7 @@ end
 
 getgenv().crguiLoaded = true;
 
-local can_load_teleport = queue_on_teleport;
-local can_fire_click = fireclickdetector;
-
-if not can_fire_click then
+if not fireclickdetector then
 	StarterGui:SetCore("SendNotification", {
 		Title = "Executor Unsupported",
 		Text = "Your executor is missing the required functions!",
@@ -311,7 +308,3 @@ RunService.Heartbeat:Connect(function()
 		end
 	end
 end)
-
-if queue_on_teleport then
-	queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/kobrasoftwareofficial/roblox-scripts/refs/heads/main/CartSpam.lua'))()")
-end
