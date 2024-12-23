@@ -116,7 +116,7 @@ CartSpamToggle.BorderSizePixel = 0
 CartSpamToggle.Position = UDim2.new(0.0578034669, 0, 0.79936856, 0)
 CartSpamToggle.Size = UDim2.new(0, 153, 0, 29)
 CartSpamToggle.Font = Enum.Font.SourceSansBold
-CartSpamToggle.Text = "Disable Cart Spam (K)"
+CartSpamToggle.Text = "Enable Cart Spam (K)"
 CartSpamToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 CartSpamToggle.TextSize = 16.000
 
